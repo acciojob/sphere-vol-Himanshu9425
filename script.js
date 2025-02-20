@@ -7,7 +7,7 @@ function volume_sphere() {
       v.value=NaN;
 	}
 	else{
-		let v1=((4/3)*3.14*r1*r1*r1).toFixed(4);
+		let v1=((4/3)*Math.PI*r1*r1*r1).toFixed(4);
 			
 	v.value=v1;
 	}
